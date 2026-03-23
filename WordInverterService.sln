@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordInverterService", "WordInverterService\WordInverterService.csproj", "{1A345FA6-A25B-4F5B-8879-462FC8813FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A345FA6-A25B-4F5B-8879-462FC8813FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A345FA6-A25B-4F5B-8879-462FC8813FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A345FA6-A25B-4F5B-8879-462FC8813FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A345FA6-A25B-4F5B-8879-462FC8813FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14AE4A0C-2373-4128-A713-C46A0062D365}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+@WordInverterService_HostAddress = http://localhost:5154
+
+GET {{WordInverterService_HostAddress}}/api/WordInverter/
+Accept: application/json
+
+###
+POST {{WordInverterService_HostAddress}}/api/WordInverter/
+Content-Type: application/json
+{
+    "request": "Hello hi how are you doing that?"
+}
+
+###
+POST {{WordInverterService_HostAddress}}/api/WordInverter/
+Content-Type: application/json
+{
+    "request": "Hello this is the best day of the trip. Hello again"
+}
+
+###
+GET {{WordInverterService_HostAddress}}/api/WordInverter/findByWord?word=Hello}}
+Accept: application/json

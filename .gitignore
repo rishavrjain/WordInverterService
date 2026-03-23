@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.DotSettings.user
+*.user
+project.lock.json
+*.log
+logs/
+.DS_Store
+Thumbs.db
